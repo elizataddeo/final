@@ -1,0 +1,118 @@
+/* ADD YOUR CUSTOM CSS TO THIS FILE BELOW */
+
+#hero{
+	background-color: black;
+	height: 600px;
+}
+
+#hero2{
+  background-color: black;
+}
+
+#head{
+	color: whitesmoke;
+}
+
+#nav .navbar {
+  background-color: #E5E1D8 !important; 
+  padding: 5px;
+  font-family: "Crimson Pro", serif;
+  font-size: 18px;
+}
+
+#nav .navbar-brand img {
+	margin-left: 30px;
+}
+
+#catman{
+margin-left:-5px;
+}
+
+
+/* Logo GIF */
+.image-container {
+  position: relative;
+  width: 165px;  
+  height: 70px;  
+}
+#myvideo{
+  width:1740px;
+  margin-left:-15px;
+}
+
+.image-container .image1 {
+  width: 100%;   
+  height: 100%;  
+  display: block;
+  transition: opacity 0.3s ease-in-out;  
+}
+
+.image-container .image2 {
+  width: 100%;    
+  height: 140px;     
+  display: block;
+  position: absolute;
+  top: -65px;
+  left: 0;
+  opacity: 0;    
+  transition: opacity 0.3s ease-in-out;  
+}
+
+/* Show imag 2 when hovering */
+.image-container:hover .image1 {
+  opacity: 0;  
+}
+
+.image-container:hover .image2 {
+  opacity: 1;  
+}
+
+/* Style for navigation links */
+.nav-link {
+  text-decoration: none;
+  color: #31312F; 
+  font-size: 16px;
+  padding: 8px 12px;
+  display: inline-block;
+  transition: color 0.3s ease;
+}
+
+/* Hover effect for nav links */
+.nav-link:hover {
+  color: #D99C2B; /* Gold color on hover */
+}
+
+.lead{
+	color: white;
+}
+
+.feature{
+	margin-top: 50px;
+	margin-left: 70px;
+}
+
+
+body{
+	background-color: white;
+  overflow-x: hidden; /* help from chatgpt on this element */
+
+}
+
+h1{
+	font-size: 60px;
+	color: white;
+	font-family: "Libre Baskerville", serif;
+}
+
+h2{
+	font-family: "Libre Baskerville", serif;
+	font-size: 40px;
+	padding: 15px;
+}
+
+p{
+	font-family: "Crimson Pro", serif;
+	font-size: 18px;
+}
+
+
